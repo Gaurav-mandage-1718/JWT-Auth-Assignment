@@ -90,7 +90,7 @@ JWT-Auth-Assignment
 
 ├── frontend
 
-├── screenshots
+├── screenshot
 
 └── README.md
 
@@ -104,7 +104,7 @@ JWT-Auth-Assignment
 
 
 
-!\[Swagger](screenshots/swagger.png)
+!\[Swagger](screenshot/swagger.png)
 
 
 
@@ -112,7 +112,7 @@ JWT-Auth-Assignment
 
 
 
-!\[Register](screenshots/register.png)
+!\[Register](screenshot/register.png)
 
 
 
@@ -120,7 +120,7 @@ JWT-Auth-Assignment
 
 
 
-!\[Login API](screenshots/login-api.png)
+!\[Login API](screenshot/login-api.png)
 
 
 
@@ -128,7 +128,7 @@ JWT-Auth-Assignment
 
 
 
-!\[User Dashboard](screenshots/user-dashboard.png)
+!\[User Dashboard](screenshot/user-dashboard.png)
 
 
 
@@ -136,7 +136,7 @@ JWT-Auth-Assignment
 
 
 
-!\[Admin Dashboard](screenshots/admin-dashboard.png)
+!\[Admin Dashboard](screenshot/admin-dashboard.png)
 
 
 
@@ -144,7 +144,7 @@ JWT-Auth-Assignment
 
 
 
-!\[User API Postman](screenshots/user-api-postman.png)
+!\[User API Postman](screenshot/user-api-postman.png)
 
 
 
@@ -152,7 +152,7 @@ JWT-Auth-Assignment
 
 
 
-!\[Admin API Postman](screenshots/admin-api-postman.png)
+!\[Admin API Postman](screenshot/admin-api-postman.png)
 
 
 
