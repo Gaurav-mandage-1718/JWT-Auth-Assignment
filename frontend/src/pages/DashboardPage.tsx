@@ -25,7 +25,7 @@ function DashboardPage() {
     navigate("/login");
   };
 
- return (
+return (
   <div className="dashboard">
     <h2>Dashboard</h2>
 
@@ -36,23 +36,19 @@ function DashboardPage() {
       Logout
     </button>
 
-    {(role === "USER" || role === "ADMIN") && (
+    {role === "USER" && (
       <div className="content-card">
-        <h3>User Content Card</h3>
-        <p>This content is visible for USER and ADMIN.</p>
-        <button onClick={callUserApi}>Test User API</button>
+        <h3>User Section</h3>
+        <p>You can access user content.</p>
       </div>
     )}
 
     {role === "ADMIN" && (
       <div className="content-card">
-        <h3>Admin Content Card</h3>
-        <p>This content is visible only for ADMIN.</p>
-        <button onClick={callAdminApi}>Test Admin API</button>
+        <h3>Admin Section</h3>
+        <p>You can access admin content.</p>
       </div>
     )}
-
-    {message && <p className="message">{message}</p>}
   </div>
 );
 }
