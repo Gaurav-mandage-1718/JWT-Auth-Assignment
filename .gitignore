@@ -1,0 +1,24 @@
+# Extra temp folder
+JWT-Auth-Assignment/
+
+# Backend
+Backend/**/target/
+Backend/**/src/main/resources/application.properties
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# IDE
+.classpath
+.project
+.settings/
+.idea/
+.vscode/
+*.iml
+
+# Logs/system
+*.log
+.DS_Store
+Thumbs.db
